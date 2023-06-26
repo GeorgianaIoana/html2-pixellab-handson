@@ -1,0 +1,10 @@
+@mixin mq-md-down() {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+@include mq-md-down() {
+  .box-2 {
+    display: none;
+  }
+}
