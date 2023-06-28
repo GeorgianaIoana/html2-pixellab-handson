@@ -1,0 +1,45 @@
+ul a {
+  text-decoration: none;
+}
+ul a:hover {
+  color: red;
+}
+ol a:hover {
+  color: magenta; /* Culoarea textului ancorei la hover */
+}
+ul a:active {
+  color: purple;
+}
+ol a:active {
+  color: pink;
+  text-decoration: none;
+}
+ul a:visited {
+  color: green;
+}
+
+.para {
+  padding: 10px 20px;
+}
+.reverse .para {
+  width: 50%;
+  padding: 0;
+}
+
+.para-short {
+  width: 50%;
+  margin: 0 auto;
+}
+.reverse .para-short {
+  width: 100%;
+  padding: 10px 20px;
+}
+ol a:visited {
+  color: lightcoral;
+  text-decoration: none;
+}
+.all-visited a {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */
