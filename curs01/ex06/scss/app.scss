@@ -57,6 +57,7 @@
 
 .circle-red {
   @include circleBG(red);
+  @include circle-border-blue;
 }
 
 .circle-green {
