@@ -1,27 +1,39 @@
 /* please do not modify this code */
-.grid-item {
-  display: flex;
+.grid-container {
+  display: grid;
   align-items: center;
   justify-content: center;
+  grid-template-columns: 120px 1fr 400px 2fr 350px 10px;
+  grid-template-rows: 150px;
 }
 
 .grid-item-1 {
   background-color: lightblue;
+  justify-self: end;
+  align-self: end;
 }
 
 .grid-item-2 {
   background-color: lightcoral;
+  align-self: start;
+  justify-self: center;
 }
 
 .grid-item-3 {
   background-color: lightgreen;
+  align-self: center;
+  justify-self: end;
 }
 
 .grid-item-4 {
   background-color: lightsalmon;
+  align-self: start;
+  justify-self: start;
 }
 
 .grid-item-5 {
   background-color: lightseagreen;
+  justify-self: start;
+  align-self: end;
 }
 /* please do not modify this code */
